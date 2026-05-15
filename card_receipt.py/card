@@ -1,0 +1,20 @@
+##card receipt
+card_no = input("enter card no. of 16 digits")
+last_digits=card_no[19:15:-1]
+s1="xxxx xxxx xxxx "+''
+s='x'*4 
+disp_no=s*3+last_digits
+disp_no1 =s1+last_digits
+print(disp_no)
+print(disp_no1)
+
+if(disp_no==disp_no1):
+  print("both are same ")
+else:
+  print("difffer")  
+
+
+  
+
+
+
